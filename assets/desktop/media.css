@@ -1,0 +1,83 @@
+@media (max-width:34em) {
+
+    .logo {}
+
+    .grid--3-cols {
+        grid-template-columns: 21rem 26rem;
+        grid-template-rows: 1rem 1rem;
+    }
+
+    .hero {
+        gap: 0.1rem;
+        margin-bottom:1rem;
+        
+    }
+
+    .image-left {
+        width: 25rem;
+    }
+
+    .image-right {
+        width: 25rem;
+        grid-column: 2/3;
+        grid-row: 2/1;
+        
+    }
+
+    .hero-text {
+        padding-top: 4rem;
+        width: 50rem;
+        height: 40rem;
+        margin-left: 3rem;
+    }
+
+    .primary-header {
+        font-size: 5rem;
+        padding-left: 1rem;
+    }
+
+    .grid--4-cols {
+        grid-template-columns: 23rem 23rem;
+    }
+
+    .gallery {
+        margin-left: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .about-text {
+        margin-left: 4rem;
+        margin-bottom: 8rem;
+        font-family: barlow, sans-serif;
+    }
+
+    .subheading {
+        width: 40rem;
+        margin-left: 3rem;
+    }
+
+    .secondary-header {
+        font-size: 3rem;
+        width: 40rem;
+        margin-left: 4rem;
+    }
+
+    .about-paragraph {
+        font-size: 1.7rem;
+        width: 45rem;
+    }
+
+    .footer {
+        background-image: linear-gradient(to right bottom, #8ed7f883, rgba(47, 204, 243, 0.596)),
+            url('/tablet/image-footer.jpg');
+        background-size: cover;
+        height: 26rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .footer-text {
+        max-width: 35rem;
+    }
+
+}
